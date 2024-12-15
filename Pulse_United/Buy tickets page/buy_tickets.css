@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Amaranth:ital@1&family=Anek+Kannada:wght@500&family=Crimson+Pro:wght@500&family=Poppins:wght@200;400;500&family=Roboto:wght@400;500&family=Titillium+Web:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amaranth:ital@1&family=Anek+Kannada:wght@500&family=Crimson+Pro:wght@500&family=Poppins:wght@200;400;500&family=Roboto&family=Titillium+Web:wght@400;600&display=swap');
+*{
+    font-family: 'Crimson Pro', serif;
+    margin: 0;
+    padding: 0;
+    background: transparent;
+   
+}
+
+
+
+.buy_tickets{
+    font-size: large;
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    color: #d9d9d9;
+    
+}
+
+.buy_tickets p{
+    color: #d9d9d9;
+    font-size: large;
+}
+
+.buy_tickets h2{
+    color: #fe0000;
+    font-size: 50px;
+}
+
+.col{
+    flex-basis: 48%;
+    padding: 30px 23px;
+    
+}
+
+.col img{
+    height: 326px;
+    width: 100%;
+}
+
+.ticket-row{
+    display: flex;
+    padding-bottom: 10% ;
+    
+}
+
+.col h2{
+    padding-left: 0%;
+    padding-top: 1%;
+}
+
+.col p{
+    padding: 15px 0 27px;
+}
+
+.hero-btn{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    display:inline-block;
+    text-decoration: none;
+    color: #000000;
+    border: 1px solid rgb(4, 49, 49);
+    background: aqua;
+    padding: 12px 30px;
+    border-radius: 2px;
+    position: relative;
+    top: 15%;
+    cursor: pointer;
+
+}
+
+.hero-btn:hover{
+    background: #d9d9d9;
+    transition: 0.5s;
+    color: #000;
+    padding: 15px 33px;
+    margin: auto;
+}

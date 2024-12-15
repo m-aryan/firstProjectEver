@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PulseUnited</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <section class="header">
+         <nav>
+             <a href="index.html">
+                 <img src="PulseUnited(Logo).png">
+             </a>
+             <div class="nav_content" id="navContent">
+                 <i class="fa fa-times" onclick="hideMenu()"></i>
+                 <ul>
+                     <li><a href="index.html">Home</a></li>
+                     <li><a href="#about">About</a></li>
+                     <li><a href="Event-Calendar-master/event_index.html" target="_blank" rel="noopener noreferrer">Events</a></li>
+                     <li><a href="contact.html" >Contact Us</a></li>
+                 </ul>
+             </div>
+             <i class="fa fa-bars" onclick="showMenu()"></i>
+         </nav>
+                
+
+            
+
+                <h2> PulseUnited</h2>
+                
+        <div class="slider">
+            <div class="slides">
+
+
+            <!--     RADIO BUTTONS   -->
+
+            <input type="radio" name="radio-btn" id="radio1">
+
+            <input type="radio" name="radio-btn" id="radio2">
+
+            <input type="radio" name="radio-btn" id="radio3">
+
+            <input type="radio" name="radio-btn" id="radio4">
+
+            <input type="radio" name="radio-btn" id="radio5">
+
+            <input type="radio" name="radio-btn" id="radio6">
+
+            <!--    SLIDE IMAGES   -->
+
+            <div class="slide first">
+                <img src="1.jpg" alt="">
+            </div>
+
+            <div class="slide">
+                <img src="2.jpg" alt="">
+            </div>
+
+            <div class="slide">
+                <img src="3.png" alt="">
+            </div>
+
+            <div class="slide">
+                <img src="4.png" alt="">
+            </div>
+
+            <div class="slide">
+                <img src="5.jpg" alt="">
+            </div>
+
+            <div class="slide">
+                <img src="6.jpg" alt="">
+            </div>
+        
+            <!-- AUTOMATIC NAVIGATION  -->
+
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+                <div class="auto-btn5"></div>
+                <div class="auto-btn6"></div>
+            </div>
+        </div>
+      
+        <!---    MANUAL NAVIGATION     --->
+
+
+          <!-- <div class="navigation-manual">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+            <label for="radio5" class="manual-btn"></label>
+            <label for="radio6" class="manual-btn"></label>
+
+        
+            </div>  -->
+        </div>
+
+        <div class="text-box">
+            <h1>
+                Oscillate Stage
+            </h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui cupiditate ad perspiciatis tempore obcaecati. Accusamus quia facere similique! Rem doloremque quas magnam eligendi minima quod, repudiandae tempore obcaecati reprehenderit dolorem.
+            </p>
+
+            <div class="text-box1">
+                <h1>
+                    Fluctuate Stage
+                </h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui cupiditate ad perspiciatis tempore obcaecati. Accusamus quia facere similique! Rem 
+                </p>
+            </div>
+        </div>
+
+        <a href="Buy tickets page/buy_tickets.html" class="hero-btn">BUY TICKETS</a>
+
+        <script>
+            var navContent = document.getElementById("navContent");
+
+            function showMenu(){
+                navContent.style.right="0";
+            }
+            
+            function hideMenu(){
+                navContent.style.right="-200px";
+            }
+
+        </script>
+        
+         <script type="text/javascript">
+             var counter= 1;
+             setInterval(function(){
+                 document.getElementById('radio'+ counter).checked = true;
+                 counter++;
+                 if(counter>6){
+                     counter = 1;
+                 }
+             },5000);
+
+
+         </script>
+
+    </section>
+
+
+
+    <!---     About Us  --->
+
+    <section class="about" id="about">
+        <h1>
+            About Us
+        </h1>
+        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, officiis facere velit fugiat doloremque veniam sunt deleniti tenetur accusantium!</p>
+
+        <div class="row">
+            <div class="about-col">
+                <h3>UNIVERSAL MUSIC</h3>
+                <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus, quod quos, sed in pariatur non aliquam atque suscipit repudiandae molestias dolore cumque fugiat incidunt repellendus assumenda eius enim quidem. Aspernatur.</p>
+            </div>
+            <div class="about-col">
+                <h3> MUSIC</h3>
+                <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus, quod quos, sed in pariatur non aliquam atque suscipit repudiandae molestias dolore cumque fugiat incidunt repellendus assumenda eius enim quidem. Aspernatur.</p>
+            </div>
+        </div>
+
+
+
+        <div class="row2">
+            <div class="about-col">
+                <h3> MUSIC</h3>
+                <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus, quod quos, sed in pariatur non aliquam atque suscipit repudiandae molestias dolore cumque fugiat incidunt repellendus assumenda eius enim quidem. Aspernatur.</p>
+            </div>
+            <div class="about-col">
+                <h3>UNIVERSAL MUSIC</h3>
+                <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus, quod quos, sed in pariatur non aliquam atque suscipit repudiandae molestias dolore cumque fugiat incidunt repellendus assumenda eius enim quidem. Aspernatur.</p>
+            </div>
+        </div>
+
+ 
+    </section>
+
+
+    <!--       Footer       -->
+
+    
+    <section class="footer">
+        <h4>
+            Thank you for visiting our website!!
+        </h4>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p><br> Made with Musical Touch for the Music Lovers</p>
+    </section>
+    <script>
+        window.addEventListener("scroll",function(){
+          var nav= document.querySelector("nav");
+          nav.classList.toggle("sticky" , window.scrollY > 0);
+    
+        });
+      </script>
+</body>
+</html>
